@@ -1,0 +1,2 @@
+# patikaDevExamples
+www.patika.dev
