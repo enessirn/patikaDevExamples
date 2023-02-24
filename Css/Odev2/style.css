@@ -12,6 +12,7 @@ footer *{
 }
 footer {
     display: flex;
+    justify-content: center;
 }
 .sutun {
     width: 400px;
