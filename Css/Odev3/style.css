@@ -15,6 +15,10 @@ header {
     gap: 1rem;
     font-size: 13px;
 }
+header p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
 .profile{
     width: 50px;
     height: 50px;
@@ -68,15 +72,17 @@ footer {
     background: #181818;
     display: flex;
     flex-direction: column;
-    color: rgba(255,255,255,.7)
+    color: rgba(255,255,255,.7);
+   
 }
 .footer_ust {
-    padding-left: 10px;
+    padding: 0 10px;
     width: 100%;
     border-bottom: 1px solid rgba(255, 255, 255, .5);
     margin: 10px 0;
 }
 .footer_alt{
+    padding: 0 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
