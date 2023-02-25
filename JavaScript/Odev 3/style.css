@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400;1,500;1,600;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    width: 100%;
+    height: 80px;
+    background: #0a7143;
+    border-bottom: 5px solid rgb(0, 173, 95);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    flex-shrink: none;
+
+}
+.logo {
+    width: 80px;
+    height: 70px;
+    cursor: pointer;
+}
+.header-baslik {
+    font-size: 36px;
+    color: #fff;
+}
+.header-slogan {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 300;
+    font-style: italic;
+}
+.content {
+    width: 100%;
+    min-height: calc(100vh - 80px);
+    padding: 0 24px;
+    margin-top: 24px;
+}
+.filter-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+}
+.filter-buttons button {
+    padding: 6px 12px;
+    border: none;
+    border-bottom: 2px solid rgba(0, 130, 72, .7);
+    cursor: pointer;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    font-weight: 600;
+    transition: .4s all;
+    -webkit-user-select: none;
+    user-select: none;
+    -moz-user-select: none;
+}
+.filter-buttons button:hover {
+    color: #0a7143;
+    border-bottom: 2px solid rgb(0, 130, 72);
+    padding: 6px 20px;
+    transition: .4s all;
+}
+.products {
+    width: 100%;
+    display: flex;
+    padding: 50px 24px;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.urun {
+    border: 2px solid #0a7143;
+    min-width: 400px;
+    min-height: 500px;
+    max-width: 400px;
+    max-height: 500px;
+    position: relative;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 5px 20px rgba(0, 130, 72, .4);
+    margin-top: 50px;
+}
+.product-img {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 200px;
+    position: absolute;
+    top: -50px;
+    cursor: pointer;
+}
+.product-img img {
+    width: 50%;
+    object-fit: contain;
+    border-radius: 200px;
+}
+.product-details {
+    width: 100%;
+    padding: 0 12px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 200px;
+}
+.product-header {
+    color: #0a7143;
+    font-weight: 800;
+    font-size: 20px;
+    text-align: center;
+}
+.product-desc {
+    margin-top: 24px;
+}
+.product-price {
+    color: #0a7143;
+    font-weight: 600;
+    font-size: 36px;
+    margin-top: 24px;
+}
+.siparis-ver {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0a7143;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: .4s all;
+}
+.siparis-ver:hover {
+    background: #1e3b31;
+    transition: .4s all;
+}
