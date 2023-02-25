@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,800;1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>TO DO APP</title>
+</head>
+<body>
+<div class="container">
+    <!-- banner -->
+    <div class="toggle-button">
+        <i class="fa-solid fa-sun"></i><i class="elips"></i><i class="fa-solid fa-moon"></i>
+    </div>
+        <div class="baslik">
+            <h1 align="center">TO DO APP</h1>
+        </div>
+    <div class="date">
+        <div class="saat">00:00:00</div>
+        <div class="tarih">00 ocak 0000</div>
+    </div>
+    <!-- inputlar -->
+        <div class="gorev-yaz">
+            <input type="text" required class="gorev" placeholder="Görevinin konusunu yaz">
+            <button type="button" class="ekle"><i class="fa-solid fa-plus"></i> Ekle</button>
+        </div>
+        <!-- içerik -->
+        <div class="content">
+            <!-- gorevlerin geldiği kısım -->
+            <ul class="liste">
+            </ul>
+            <div class="basarili"><i class="fa-solid fa-circle-check"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Başarılı&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+            <div class="basarisiz"><i class="fa-solid fa-circle-xmark"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Başarısız&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        </div>
+            
+
+
+</div>
+<!-- kendi js -->
+<script src="script.js"></script>
+</body>
+</html>
